@@ -10,9 +10,7 @@ import rootRouter from "./router/router";
 import passport from "passport";
 import { environment } from "./environment/environment";
 
-if (environment.name !== "production") {
-    dotenv.config();
-}
+dotenv.config();
 
 const app = express();
 import "./utils/passport";
