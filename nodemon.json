@@ -1,0 +1,17 @@
+{
+    "ignore": [
+        ".git",
+        "node_modules",
+        "dist"
+    ],
+    "watch": [
+        "./src"
+    ],
+    "exec": "npm run start:server",
+    "ext": "ts",
+    "delay": 1500,
+    "events": {
+        "restart": "kill-port 3000",
+        "crash": "kill-port 3000"
+    }
+}
