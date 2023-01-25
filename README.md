@@ -4,7 +4,7 @@
 
 # Start
 
-Run `npx nodemon` or simply `npm start` for a dev server. Server will be hosted on `http://localhost:3000/`. Ask [me](https://github.com/ultrakenchie) for access to the super admin account
+Run `npx nodemon` or simply `npm start` for a dev server. Server will be hosted on `http://localhost:3000/`. Ask [me](https://github.com/ultrakenchie) for access to the super admin account. Client repository is found [here](https://github.com/UltraKenchie/hello-client).
 
 ## Build
 
